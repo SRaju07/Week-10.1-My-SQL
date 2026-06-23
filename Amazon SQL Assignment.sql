@@ -145,6 +145,6 @@ SELECT SUM(Amount) AS Total_Sales FROM Sales
 Get the names of customers who have placed an order of more than 600. */
 -------------------------------------------------------------------------------------------
 
-SELECT Customer_NAME FROM Orders
+SELECT DISTINCT Customer_NAME FROM Orders
 	WHERE Order_Amount > 600;
   
